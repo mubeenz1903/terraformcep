@@ -1,4 +1,4 @@
 resource "local_file" "localfile" {
     filename = "/tmp/localfile.txt"
-    content = "Test content, !"
+    content = "Test content, Terraform!"
 }
